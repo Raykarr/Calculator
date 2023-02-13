@@ -13,10 +13,15 @@ This repository contains a basic calculator program written in Java. The calcula
 - Standard deviation of an array
 
 ### The program is composed of three Java files:
-- Main.java: This is the main file that executes the program.
-- UserInput.java: This file contains functions for taking input from the user. The user can input numbers or an array of numbers.
-- Calculator.java: This file contains the logic for performing the above-mentioned operations.
-Methods
+* The program is composed of three Java files, each serving a distinct purpose.
+
+- Main.java - This file is the entry point of the program and controls the overall flow of the application. It calls the appropriate methods from the other two files, UserInput.java and Calculator.java, to perform the desired calculations.
+
+- UserInput.java - This file contains functions for taking input from the user. It allows the user to enter numbers or an array of numbers, and passes this input to the Calculator.java file for processing.
+
+- Calculator.java - This file contains all of the actual calculations performed by the program. It contains methods for addition, subtraction, multiplication, division, sum of array, variance of array, and standard deviation of array. All of these methods take the user's input from UserInput.java, perform the calculations, and return the results back to Main.java.
+
+In summary, Main.java serves as the controller, UserInput.java takes care of input, and Calculator.java performs all of the calculations.
 
 ### The following methods are defined in the Calculator.java file:
 - add: This method takes two numbers as input and returns their sum.
