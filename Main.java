@@ -1,6 +1,6 @@
-// Name: OpenAI
-// PRN: 1234567890
-// Batch: AI
+// Name: Kaustubh Raykar 
+// PRN: 21070126048
+// Batch: AIML A3
 
 import java.util.Scanner;
 
